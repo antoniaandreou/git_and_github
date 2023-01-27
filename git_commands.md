@@ -1,4 +1,4 @@
-|Git Command|Description|Example|Enhanced Examples|
+|Git Command|Description|Example/Note|Enhanced Examples|
 |-----------------|----------------|----------------|----------------|
 |git init| To initialise a repository on a folder|-|-|##
 |git status| Check the status of the repository OR if a repository was even initialised yet on that location|-|-|##
@@ -7,6 +7,6 @@
 |git add **.**| Stages all available changes at once, by using the fullspot **.**|-|-|##
 |git commit|It will commit all staged changes. You will get prompt to enter a commit message|-|-|##
 |git commit **-m "my message"**|Commits staged changes with the given commit message. Prompt avoided|-|-|##
-|git commit **--amend**|Opens the latest commit to include forgotten files or change the commit message|Note: Only works for the latest commit, not any other commit prior that|-|##
+|git commit **--amend**|Opens the latest commit to include forgotten files or change the commit message|:warning: Only works for the latest commit, not any other commit prior that|-|##
 
 
