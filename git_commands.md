@@ -8,5 +8,6 @@
 |git commit|It will commit all staged changes. You will get prompt to enter a commit message|-|-|##
 |git commit **-m "my message"**|Commits staged changes with the given commit message. Prompt avoided|-|-|##
 |git commit **--amend**|Opens the latest commit to include forgotten files or change the commit message|:warning: Only works for the latest commit, not any other commit prior that|-|##
+---
 
 
