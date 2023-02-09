@@ -13,7 +13,8 @@
 |git branch|Lists all the available branches|-|-|##
 |git branch **branch_name**|Creates a branch with the given name|-|-|##
 |git branch **-d branch_name**|Delete the specified branch from the local repository|-|-|##
-|git fetch| Brings the remote branches into the local|-|-|##
+|git fetch|Brings the remote branches into the local|-|-|##
+|git rebase origin/main|Updates the branch selected with the latest version of the main| Note: First use git switch to the branch you want to rebase|-|##
 ---
 
 
