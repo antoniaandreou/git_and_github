@@ -9,7 +9,7 @@
 |git commit **-m "my message"**|Commits staged changes with the given commit message. Prompt avoided|-|-|##
 |git commit **--amend**|Opens the latest commit to include forgotten files or change the commit message|:warning: Only works for the latest commit, not any other commit prior that|-|##
 |git switch **branch_name**|Switches to the specified branch|-|-|##
-|git push **-u origin branch_name**|Pushes a local branch to the report|Note: **-u** is the short form for --set-upstream|-|##
+|git push **-u origin branch_name**|Pushes a local branch to the remote|Note: **-u** is the short form for --set-upstream|-|##
 |git branch|Lists all the available branches|-|-|##
 |git branch **branch_name**|Creates a branch with the given name|-|-|##
 |git branch **-d branch_name**|Delete the specified branch from the local repository|-|-|##
