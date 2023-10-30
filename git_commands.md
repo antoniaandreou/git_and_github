@@ -1,5 +1,8 @@
 |Git Command|Description|Example/Note|Enhanced Examples|
 |-----------------|----------------|----------------|----------------|
+|git config --global user.name "Your Name"|Set up the name for the user when first installing git|-|-|##
+|git config --global user.email email@address.com|Set up the email of the user when first installing git|-|-|##
+|git config --list|To list all the configurations for the user|-|-|##
 |git init| To initialise a repository on a folder|-|-|##
 |git status| Check the status of the repository OR if a repository was even initialised yet on that location|-|-|##
 |git log|Retrieves information, a log of all the commits for a given repository|:warning: Use **q** to exit the log output|-|##
