@@ -22,6 +22,7 @@
 |git rebase origin/main|Updates the branch selected with the latest version of the main|Note: First use git switch to the branch you want to rebase|-|##
 |git merge **branch_name**|Merges your current branch to the branch you are calling in the command|Current Branch: Develop. Executing _git merge main_ will effectively put develop into main|-|##
 |git reset --hard HEAD~1|Use to revert the current branch to a different point in time|If you local is ahead of your remote and you need to align it you can use this command|-|##
+|git reset --soft HEAD~1|It will remove the last local (unpushed) commit, but will keep changes you have done.|-|-|##
 ---
 
 
